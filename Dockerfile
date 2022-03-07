@@ -5,6 +5,7 @@ RUN apt-get update && \
         openssl \
         nano \
         wget \
+        postgresql-client \
     && rm -rf /var/lib/apt/lists/* \
     && apt-get clean
 
